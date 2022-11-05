@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.light-Container{
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+
+}
+.Dark-Container{
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ 
+
+
+}
+
+
+.main{
+    width: 100%;
+    height: 10vh;
+    /* border: 2px solid red; */
+
+    
+  }
+  .content{
+    margin-right: 18rem;
+
+  }
+  .nav-light{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-evenly;
+    /* color: white; */
+    /* color: black; */
+  }
+  .nav-Dark{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-evenly;
+    /* color: white; */
+    color: black;
+  }
+  
+  .nav-light button{
+    background-color: rgb(194, 47, 96);
+    width: 4rem;
+    height: 2rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .nav-Dark button{
+    background-color: rgb(194, 47, 96);
+    width: 4rem;
+    height: 2rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.userinterface-light{
+    margin: 2rem;
+}
+.userinterface-Dark{
+    margin: 2rem;
+}
+.userinterface-light h1{
+    color: rgb(194, 47, 96);
+
+}
+.userinterface-Dark h1{
+    color: rgb(194, 47, 96);
+
+}
+.userinterface-Dark p{
+    color: white;
+
+}
+
+.nav-Dark h1{
+    color: whitesmoke;
+}
